@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arohana Products</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Snipcart CSS -->
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">
+    <img src="images/1.png" alt="Arohana Logo" />
+    <span>Arohana</span>
+  </div>
+  <div class="auth-links">
+    <a href="#" id="signInBtn">Sign In</a> / <a href="#" id="signUpBtn">Sign Up</a>
+  </div>
+</header>
+
+<main class="products-container">
+
+  <div class="product-card">
+    <img src="images/3.png" alt="Arohana Weight Loss Powder" />
+    <h3>Arohana Weight Loss Powder</h3>
+    <p>₹599</p>
+    <button
+      class="snipcart-add-item"
+      data-item-id="weightloss001"
+      data-item-name="Arohana Weight Loss Powder"
+      data-item-price="599"
+      data-item-url="products.html"
+      data-item-description="Effective and organic weight loss powder by Arohana.">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/4.png" alt="Arohana Detox Powder" />
+    <h3>Arohana Detox Powder</h3>
+    <p>₹249</p>
+    <button
+      class="snipcart-add-item"
+      data-item-id="detox001"
+      data-item-name="Arohana Detox Powder"
+      data-item-price="249"
+      data-item-url="products.html"
+      data-item-description="Natural detox powder for better health.">
+      Add to Cart
+    </button>
+  </div>
+
+  <div class="product-card">
+    <img src="images/5.png" alt="Arohana Millets Powder" />
+    <h3>Arohana Millets Powder</h3>
+    <p>₹449</p>
+    <button
+      class="snipcart-add-item"
+      data-item-id="millets001"
+      data-item-name="Arohana Millets Powder"
+      data-item-price="449"
+      data-item-url="products.html"
+      data-item-description="Healthy millets powder for daily nutrition.">
+      Add to Cart
+    </button>
+  </div>
+
+</main>
+
+<!-- Snipcart JS -->
+<script async src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
+<div hidden id="snipcart" data-api-key="YOUR_SNIPCART_PUBLIC_API_KEY"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
